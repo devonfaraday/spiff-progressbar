@@ -1,0 +1,42 @@
+.progress-bar {
+    position: relative;
+    height: 6px;
+    width: 350px;
+    border-radius: 50px;
+    border: 1px solid #333;
+  }
+  
+  .filler {
+    background-image: linear-gradient(to right, orange , red);
+    height: 100%;
+    border-radius: inherit;
+    transition: width .2s ease-in;
+  }
+
+.button {
+    margin-right: 10px;
+    padding: 7px 12px;
+    font-size: 14px;
+    background: white;
+    color: #00C1A6;
+    border: 1px solid #00C1A6;
+    border-radius: 30px;
+  }
+
+  .button:hover {
+      border: 2px solid #00C1A6;
+  }
+
+  .finish-button {
+    margin-right: 10px;
+    padding: 7px 12px;
+    font-size: 14px;
+    background: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 30px;
+  }
+
+  .finish-button:hover {
+      border: 2px solid #00C1A6;
+  }
